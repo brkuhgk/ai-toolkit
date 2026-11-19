@@ -5,14 +5,14 @@
   },
   "metadata": {
     "description": "Personal plugin marketplace of brkuhgk: AI agent skills and tools.",
-    "version": "1.0.0"
+    "version": "1.1.0"
   },
   "plugins": [
     {
       "name": "ai-toolkit",
       "source": "./",
       "description": "Personal collection of AI agent skills for GitHub Copilot (CLI and VS Code) and other Agent Plugins clients.",
-      "version": "1.0.0"
+      "version": "1.1.0"
     }
   ]
 }

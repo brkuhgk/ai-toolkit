@@ -9,6 +9,7 @@ and use them on every PC.
 | Skill | What it does | Use it |
 |---|---|---|
 | [ideal-candidate-resume](./skills/ideal-candidate-resume/SKILL.md) | Builds a fictional benchmark resume that a job description would hire. It covers 100% of the JD keywords, obeys constraints (years, companies, date ranges), and ends with an evidence report. Output: Markdown, DOCX, or PDF. | `/ideal-candidate-resume <paste JD>` |
+| [explain-layman-way](./skills/explain-layman-way/SKILL.md) | Explains a research paper or topic from first principles. It draws a dependency map of every concept, defines every jargon term, gives toy-number worked examples, explains metrics before results, and ends at your goal with 3 check questions. | `/explain-layman-way <paper link or topic>` |
 
 ## How it works (first principles)
 
@@ -134,11 +135,13 @@ ai-toolkit/
 ├── .github/plugin/marketplace.json   catalog for "copilot plugin marketplace add"
 ├── plugin.json                       plugin manifest (Agent Plugins 1.0)
 ├── skills/
-│   └── ideal-candidate-resume/
-│       ├── SKILL.md                  the skill (procedure + rules)
-│       ├── assets/                   resume template
-│       ├── references/               demographics rules, evidence report format
-│       └── scripts/                  validate_resume.py, render_resume.py (optional helpers)
+│   ├── ideal-candidate-resume/
+│   │   ├── SKILL.md                  the skill (procedure + rules)
+│   │   ├── assets/                   resume template
+│   │   ├── references/               demographics rules, evidence report format
+│   │   └── scripts/                  validate_resume.py, render_resume.py (optional helpers)
+│   └── explain-layman-way/
+│       └── SKILL.md                  explain a paper or topic from first principles
 ├── LICENSE
 └── README.md
 ```
