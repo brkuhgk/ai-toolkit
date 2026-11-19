@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "ai-toolkit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Personal collection of AI agent skills for GitHub Copilot (CLI and VS Code) and other Agent Plugins clients.",
   "author": {
     "name": "brkuhgk",
@@ -10,5 +10,5 @@
   "homepage": "https://github.com/brkuhgk/ai-toolkit",
   "repository": "https://github.com/brkuhgk/ai-toolkit",
   "license": "MIT",
-  "keywords": ["skills", "copilot", "agent-plugins", "resume", "career"]
+  "keywords": ["skills", "copilot", "agent-plugins", "resume", "career", "learning", "research-papers"]
 }
